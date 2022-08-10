@@ -1,1 +1,38 @@
--- ds.page: hello
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fpm
+
+
+-- boolean is-mobile: false
+
+-- is-mobile: true
+if: $ftd.device == mobile
+
+-- ftd.column:
+width: fill
+padding-horizontal: 50
+padding-horizontal if $is-mobile: 20
+background-color: $fpm.color.main.background.base
+height: fill
+
+
+-- pd.package: Virgil Font
+name: fifthtry.github.io/virgil-font
+
+This component consist of Virgil font with all it's styles.
+
+
+-- pd.hidden-code: How to use
+
+include fifthtry.github.io/virgil-font package into FPM.ftd file
+
+\-- fpm.dependency: fifthtry.github.io/virgil-font
+
+\-- fpm.auto-import: fifthtry.github.io/virgil-font
+
+Inside your .ftd file to change for any specific token use:
+
+\-- fpm.type.headline-small.font: $virgil.fonts.virgil
+
+\-- ftd.text:
+role: $fpm.type.headline-small
+
