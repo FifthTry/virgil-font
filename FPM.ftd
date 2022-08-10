@@ -1,9 +1,18 @@
 -- import: fpm
 
--- fpm.package: <user_name>.github.io/<repo_name>
-zip: github.com/<user_name>/<repo_name>/archive/refs/heads/main.zip
-base: https://raw.githubusercontent.com/<user_name>/<repo_name>/main
+-- fpm.package: fifthtry.github.io/virgil-font
+zip: github.com/fifthtry/virgil-font/archive/refs/heads/main.zip
+base: https://raw.githubusercontent.com/fifthtry/virgil-font/main
 
--- fpm.dependency: fifthtry.github.io/doc-site as ds
+-- fpm.dependency: fifthtry.github.io/package-doc
 
--- fpm.auto-import: ds
+
+
+
+
+
+
+-- fpm.font: virgil
+style: Normal
+weight: 400
+woff2: -/fifthtry.github.io/virgil-font/static/virgil.woff2
