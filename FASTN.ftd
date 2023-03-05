@@ -1,10 +1,10 @@
--- import: fpm
+-- import: fastn
 
--- fpm.package: fifthtry.github.io/virgil-font
+-- fastn.package: fifthtry.github.io/virgil-font
 zip: github.com/fifthtry/virgil-font/archive/refs/heads/main.zip
 download-base-url: https://raw.githubusercontent.com/fifthtry/virgil-font/main
 
--- fpm.dependency: fifthtry.github.io/package-doc
+-- fastn.dependency: fifthtry.github.io/package-doc
 
 
 
@@ -12,7 +12,7 @@ download-base-url: https://raw.githubusercontent.com/fifthtry/virgil-font/main
 
 
 
--- fpm.font: virgil
+-- fastn.font: virgil
 style: Normal
 weight: 400
 woff2: -/fifthtry.github.io/virgil-font/static/virgil.woff2
