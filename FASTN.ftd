@@ -1,8 +1,6 @@
 -- import: fastn
 
 -- fastn.package: fifthtry.github.io/virgil-font
-zip: github.com/fifthtry/virgil-font/archive/refs/heads/main.zip
-download-base-url: https://raw.githubusercontent.com/fifthtry/virgil-font/main
 
 -- fastn.dependency: fifthtry.github.io/package-doc
 
